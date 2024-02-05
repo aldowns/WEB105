@@ -1,0 +1,57 @@
+/* Set colors for the page */
+body{
+    background-color: rgb(243, 250, 234);
+    color: #4B2142; /* this is the font color*/
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: left;
+    font-size: medium;
+}
+
+p{
+    font-family: Helvetica, Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: x-large;
+    color:#4B2142;
+    font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: left;
+    font-size:medium;
+}
+q{
+    color:#4B2142 ;
+    font-family: Futura, Helvetica, Arial, sans-serif;
+}
+/* create styles for the h1 tag */
+
+/* Sample - pick your own colors and settings. Make sure to include the ; at the end of the line
+
+h1{
+    color: teal;
+    font-family: serif;
+    font-size: larger;
+    text-align: center;
+}
+
+
+/* create styles for the h2 tag */
+
+
+/* create styles for the h3 tag */
+
+
+/* create styles for the p tag */
+
+img{
+    width: 50%;
+    display: block;
+    margin: 10px auto; 
+    /* this set of 3 commands centers. 10px is spacing top and bottom, auto is left and right*/
+}
