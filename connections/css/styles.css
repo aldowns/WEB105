@@ -32,6 +32,13 @@ body{
     /*add a background image here*/
 
 }
+
+#ducks{
+    background-image:url("../images/lilypad.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 img{
     width: 30%;
     display: block;
