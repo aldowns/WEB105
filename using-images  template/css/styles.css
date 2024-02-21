@@ -3,7 +3,7 @@ body {
     background-color: aliceblue;
     color: black;
     font-size: large;
-    background-image:url("images/aurora-borealis.jpg");
+    background-image:url("../images/aurora-borealis.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -43,7 +43,7 @@ h2 {
 /* Placeholder for the background styling, add your specific styles here */
 #background {
     /* Add background-specific styles here */
-    background-image:url("images/dogs.jpg");
+    background-image:url("../images/dogs.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
