@@ -1,0 +1,34 @@
+body{
+    background-color: #ddfff7;
+    color:#3d405b;
+    font-family:Quicksand, ariel, sans-serif;
+    padding: 5%;
+    text-align:left;
+}
+
+nav{
+    text-align:center;
+    padding-bottom:50px;
+}
+nav a{
+    padding:20px;
+    background-color:#ffa69e;
+    color:aliceblue;
+    box-shadow:#a3dfd1 0px 5px;
+    border-radius:10px;
+    border: solid white 10px;
+    text-wrap:nowrap;
+    margin:10px;
+    
+    
+}
+
+a{
+    color:#3d405b;
+}
+
+h2{
+    font-size:x-large;
+    color:#ffa69e;
+    text-shadow:#a3dfd1 1px 1px;
+}
