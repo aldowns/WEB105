@@ -48,9 +48,10 @@ nav{
     display:flex;
     flex-wrap: wrap;
     flex-direction:row;
+    flex:20%;
      background-color:inherit;
      margin:1%;
-     align-items:center;
+     align-items:start;
      justify-content: center;
      
     
@@ -60,11 +61,13 @@ img{
  display: block;
   margin-left: auto;
   margin-right: auto;
+  height: auto;
+  width: 100%;
 }
 
 .flex-container div{
     background-color:#a56161;
     margin:3%;
     padding:20px;
-    max-width: 40%;
+    width:30%;
 }
