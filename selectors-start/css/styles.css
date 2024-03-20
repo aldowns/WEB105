@@ -1,0 +1,83 @@
+/* change all styles */
+
+body{
+    background-color: black;
+    font-family: helvetica, arial, sans-serif;
+    padding: 10px;
+    line-height: 1.5;
+    font-size: 18px;
+    color:white;
+}
+
+div, header, footer, nav, main, aside{
+    overflow: auto;
+    border: 2px solid #5970b7;
+    margin: 10px;
+    padding: 10px;
+}
+.container{
+    width: 80%;
+    max-width:1200px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+.container .container{
+    border: 4px solid #b12929;
+    border-radius: 20px;
+}
+
+nav{
+    text-align: center;
+    width:60%;
+}
+
+h2{
+    text-align: left;
+}
+
+.container p{
+    margin-left: 15px;
+}
+
+main{
+    width:70%;
+    box-sizing:border-box;
+    border:2px solid white;
+    float:left;
+    min-height: 300px;
+
+
+}
+
+.duck{
+    background-color: blue;
+    float:left;
+}
+
+#ducks{
+    color:aquamarine;
+}
+
+.penguin{
+    background-color: red;
+    float:left;
+}
+
+#penguins{
+    color:white;
+}
+
+aside{
+    box-sizing: border-box;
+    width:20%;
+    margin-left:4%;
+    border:2px solid white;
+    margin:20px;
+    min-height:300px
+}
+
+footer{
+    clear:both;
+}

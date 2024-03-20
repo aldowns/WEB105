@@ -1,0 +1,13 @@
+iframe{
+    width: 800px;
+    height: 600px;
+    display:block;
+    margin: 20px auto; 
+
+}
+
+body{
+    background-color: aliceblue;
+    color:brown;
+    text-align: center;
+}
