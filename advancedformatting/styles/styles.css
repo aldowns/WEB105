@@ -1,0 +1,33 @@
+body{
+background: rgb(188,255,4);
+background: linear-gradient(90deg, rgba(188,255,4,1) 0%, rgba(213,101,75,1) 48%, rgba(0,212,255,1) 100%);
+}
+
+#columns{
+    column-count: 3;
+column-gap: 5px;
+}
+
+#transform{
+    background-color: aliceblue;
+    width: 80px;
+    height: 90px;
+    transform: translateX(602px) scale(3) rotate(34deg) translateY(52px) skewX(23deg);
+
+}
+
+#boxshadowandoutline{
+    width:80px;
+    height:90px;
+    background-color: blueviolet;
+    box-shadow:inset 30px 20px 20px 10px #E5B0FF;
+    outline: 3px groove #6EB6FF;
+}
+
+#terribledesign{
+    text-shadow: 3px 4px 2px #FF0313;
+    border-radius: 3px 4px 1px 8px;
+    width:90px;
+    height:90px;
+    background-color: aliceblue;
+}
