@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1>Example Form</h1>
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </nav>
+    </header>
+    <main>
+        <div class="exampleform">
+        <form>
+            <br>
+            <label for="name"><em>Full Name</em></label><br>
+            <input type="text" id="name" cols="30" rows="1" placeholder="Your Name." autofocus required>
+            </textarea><br><br>
+
+            <input type="range" class="slider" id="phonenumber" min="0" max="9999999999" step="1" width="200%" required>
+            
+            <!-- 💛SCRIPT FROM W3SCHOOLS (i wanted a funny, impractical way to input a phone number)
+                https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_rangeslider -->
+            <p><em>Phone number:</em> <span id="demo"></span></p>
+            <script>
+                var slider = document.getElementById("phonenumber");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value; // Display the default slider value
+
+// Update the current slider value (each time you drag the slider handle)
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+            </script>
+            <br>
+
+            <label for="dogsorcats"><em>Do you like dogs or cats?</em></label><br>
+            <input type="radio" name="dogsorcats" id="dogs" value="dogs">
+            <label for="dogs">Dogs</label><br>
+            <input type="radio" name="dogsorcats" id="cats" value="dogs">
+            <label for="Cats">Cats</label><br><br>
+
+            <label for="pets"><em>What kind of pets do you own?</em></label><br>
+            <input type="checkbox" name="pets" id="dog" value="dog">
+            <label for="dog">Dog</label><br>
+            <input type="checkbox" name="pets" id="cat" value="cat">
+            <label for="cat">Cat</label><br>
+            <input type="checkbox" name="pets" id="reptile" value="reptile">
+            <label for="reptile">Reptile</label><br>
+            <input type="checkbox" name="pets" id="rodent" value="rodent">
+            <label for="rodent">Rodent</label><br>
+            <input type="checkbox" name="pets" id="fish" value="fish">
+            <label for="fish">Fish</label><br>
+            <input type="checkbox" name="pets" id="none">
+            <label for="none">None</label><br>
+
+<input type="submit" value="Submit">
+
+
+        </form>
+    </div>
+
+    </main>
+    <footer>
+        <p>&copy; Allison Downs 2024</p>
+
+    </footer>
+</div>
+</body>
+</html>

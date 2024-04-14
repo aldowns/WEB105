@@ -1,0 +1,199 @@
+/*
+deep blue: #010221
+aqua: #0A7373
+sage: #B7BF99
+yellow: #EDAA25
+red: #4A1300
+
+--deep blue: #010221;
+--aqua: #0A7373;
+--sage: #B7BF99;
+--yellow: #EDAA25;
+--red: #4A1300;
+
+dark text: #010221
+light text: white
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.geologica-<uniquifier> {
+  font-family: "Geologica", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0,
+    "SHRP" 0;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* my styles */
+
+/* 💛💛💛💛💛💛my variables 💛💛💛💛💛💛💛💛💛*/
+:root {
+    --deepblue: #010221;
+--aqua: #0A7373;
+--sage: #B7BF99;
+--yellow: #EDAA25;
+--brown: #4A1300;
+--regtext:"Geologica", sans-serif;
+--headertext:"Bebas Neue", sans-serif;
+}
+
+.slider{
+    width: 100%;
+}
+
+.exampleform{
+    margin:3% 20% 20% 20%;
+    background-color: white;
+    border:10px solid var(--deepblue);
+    padding:5%;
+    
+
+
+}
+
+#name{
+    border:var(--brown) 3px solid;
+
+}
+
+em{
+    font-size:larger;
+}
+
+body{
+    font-family: var(--regtext);
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-size: large;
+  font-style: normal;
+  line-height: 2;
+	color:var(--deepblue);
+}
+
+.container{
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    border: 2px solid white;
+    background: var(--sage);
+    margin-top: 40px;
+	overflow:auto;
+}
+
+img{
+    width: 40%;
+    margin: 15px auto;
+	float:left;
+	padding-right:20px;
+	padding-bottom:20px;
+}
+
+
+nav{
+    text-align: center;
+	margin:10px auto;
+}
+
+nav a{
+    padding: 5px 20px;
+    color:var(--deepblue);
+    background: var(--yellow);
+    font-weight: 500;
+    font-size: 14pt;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+h1,h2,h3,h4{
+    font-family: var(--headertext);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40pt;
+	color:var(--brown);
+}
+
+h1{
+	text-align:center;
+	margin-bottom:-20px;
+}
+
+h2{
+    font-size: 30pt;
+    font-weight:300;
+	margin-bottom:-30px;
+	color:var(--deepblue);
+}
+
+h3{
+	margin-top:20px;
+    font-size:20pt;
+    font-weight:250;
+
+}
+
+body{
+    background:var(--aqua);
+}
+
