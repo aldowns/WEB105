@@ -1,0 +1,349 @@
+/*
+deep blue: #010221
+aqua: #0A7373
+sage: #B7BF99
+yellow: #EDAA25
+red: #4A1300
+
+--deep blue: #010221;
+--aqua: #0A7373;
+--sage: #B7BF99;
+--yellow: #EDAA25;
+--red: #4A1300;
+
+dark text: #010221
+light text: white
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.geologica-<uniquifier> {
+  font-family: "Geologica", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0,
+    "SHRP" 0;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* my styles */
+
+/* 💛💛💛💛💛💛my variables 💛💛💛💛💛💛💛💛💛*/
+:root {
+    --deepblue: #010221;
+--aqua: #0A7373;
+--sage: #B7BF99;
+--yellow: #EDAA25;
+--brown: #4A1300;
+
+
+--regtext:"Geologica", sans-serif;
+--headertext:"Bebas Neue", sans-serif;
+
+--earth-yellow: #F7BA6Aff;
+--sunset: #FACF96ff;
+--english-violet: #462E59ff;
+--feldgrau: #43594Eff;
+--taupe: #3D3325ff;
+}
+
+
+
+body{
+    font-family: var(--regtext);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: large;
+  font-style: normal;
+  line-height: 1.5;
+	color:black;
+}
+
+.container{
+    width: 80%;
+    margin: 2% auto;
+    padding: 5%;
+    border: 2px solid white;
+    background: var(--sunset);
+    margin-top: 40px;
+	overflow:auto;
+}
+
+#gridproj img{
+    width: 49.1%;
+    height: 49.1%;
+    object-fit: fill;
+    border-radius: 5%;
+    filter: drop-shadow(0px 5px 0px var(--taupe)); /*https://webcode.tools/css-generator/drop-shadow*/
+
+
+}
+
+#gridproj img:hover{
+    object-position: 0 +2px;
+    width: 49.1%;
+    height: 49.1%;
+    object-fit: fill;
+    border-radius: 5%;
+
+
+}
+
+
+img{
+    width:100%;
+    border-radius:5%;
+}
+.topbreak{
+    background-color:white;
+    height:5px;
+}
+
+    nav {
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      
+      nav a {
+        text-decoration: none;
+        background-color: var(--sunset);
+        color: var(--taupe);
+        text-align: center;
+        padding: 0.5em 0.2em; 
+        flex-grow: 1; 
+        transition: background-color 0.3s ease; /*transition from chat gpt*/
+        border-left: white 2px solid;
+        border-right: white 2px solid;
+        border-top:  white 2px solid;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+      }
+
+
+#current{
+    font-size:large;
+    font-weight: 800;
+    color:white;
+    background-color: var(--feldgrau);
+
+}
+
+nav a:hover{
+    background: var(--earth-yellow);
+}
+
+#home:hover{
+    background: var(--earth-yellow);
+}
+
+h1,h2,h3,h4{
+    font-family: var(--headertext);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 56pt;
+	color:black;
+}
+
+h1{
+	text-align:left;
+    line-height: 95%;
+
+
+    color:black;
+
+}
+
+h2{
+    font-size: 30pt;
+    font-weight:300;
+	color:var(--english-violet);
+}
+
+h3{
+	margin-top:20px;
+    font-size:20pt;
+    font-weight:250;
+
+}
+
+body{
+    background:var(--feldgrau);
+}
+
+.row{
+    margin-bottom: 1%;
+}
+
+p{
+    margin-bottom: 2%;
+}
+
+
+/* ********************************Media Queries 
+/* For mobile phones: */
+
+/* the media queries are from W3Schools */
+
+/* For mobile phones: */
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    a{
+        width:80%;
+        text-align:center;
+        
+    }
+}
+
+/*FROM MEDIA QUERIES PRACTICE ASSIGNMENT*/
+
+@media only screen and (min-width: 768px) {
+    body
+    {background-color: var(--feldgrau);}
+
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+/* GRID PHOTO JAVASCRIPT LAYOUT FROM PREVIOUS LESSON */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+}
+
+.grid-container>div {
+    text-align: center;
+    cursor: pointer;
+
+
+}
+
+#large{
+    width: 90%;
+    display: block;
+    margin: 25px auto;
+}
+
+.grid-container > div > img{
+    width: 90%;
+
+}
