@@ -1,0 +1,122 @@
+:root{
+    --earth-yellow: #F7BA6Aff;
+--sunset: #FACF96ff;
+--english-violet: #462E59ff;
+--feldgrau: #43594Eff;
+--taupe: #3D3325ff;
+
+--regtext:"Geologica", sans-serif;
+--headertext:"Bebas Neue", sans-serif;
+}
+
+.masthead{
+    color:var(--earth-yellow);
+    background-color:var(--english-violet);
+    font-size: xx-large;
+    min-height: 10px;
+
+
+}
+
+.border{
+    border-color: var(--feldgrau);
+}
+
+img{
+    width:100%;
+    margin: 10px auto;
+    display: block;
+    border-radius: 10%;
+}
+
+body{
+    margin:auto 10%;
+}
+
+
+#gridproj img{
+    filter: drop-shadow(0px 5px 0px var(--taupe)); /*https://webcode.tools/css-generator/drop-shadow*/
+    object-fit: cover;
+    width:100%;
+
+
+}
+
+#gridproj img:hover{
+    object-position: 0 +2px;
+    object-fit: fill;
+    border-radius: 10%;
+
+
+}
+
+.nav-link{
+    color:var(--sunset);
+    font-weight: bolder;
+    background-color: var(--feldgrau);
+    border-radius: 0%;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color:var(--taupe);
+    background-color: var(--earth-yellow);
+    border-radius: 0%;
+}
+.nav-link:hover:visited{
+    color:var(--taupe);
+    background-color: var(--earth-yellow);
+    border-radius: 0%;
+    text-decoration: none;
+}
+.nav-link:visited{
+    color:var(--sunset);
+    font-weight: bolder;
+    background-color: var(--feldgrau);
+    border-radius: 0%;
+    text-decoration: none;
+}
+
+.dropdown-menu:visited{
+    text-decoration: none;
+    color:var(--taupe);
+    background-color: var(--earth-yellow);
+    border-radius: 0%;
+}
+
+.dropdown-menu:hover:visited{
+    color:var(--taupe);
+    background-color: var(--earth-yellow);
+    border-radius: 0%;
+    text-decoration: none;
+}
+
+body{
+    background-color:var(--sunset);
+    font-family: var(--regtext);
+}
+
+.display-1{
+    font-family: var(--headertext);
+}
+
+h2{
+    font-family: var(--headertext);
+    color:var(--english-violet)
+}
+
+.btn-primary {
+    outline: 0; 
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn-primary:hover {
+    outline: 0; 
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    border-color: transparent;
+}
